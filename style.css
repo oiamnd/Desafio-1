@@ -1,0 +1,144 @@
+* {
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 63px 42px;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    margin-left: 42px;
+}
+
+.button-header {
+    background: #6FBF44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.imagem-principal {
+    width: 595.178px;
+    height: 500.005px;
+    margin-left: 121px;
+    display: inline-block;
+
+.container-text {
+        display: flex;         
+        align-items: center;            
+        justify-content: center;
+    }
+}
+
+section {
+    display: inline-block;
+    margin: 278px 27px 278px;
+    margin-left: 121px;
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p {
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+}
+
+.learn-more {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    opacity: 0.4;
+}
+
+.button-header:active {
+    opacity: 0.8;
+
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .imagem-principal {
+        position: fixed;
+        margin: 390px 39px 22px 69px;
+        width: 90%;
+        height: auto;
+        top: 490px;
+        right: 2px;
+    }
+
+    .div-1 {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+
+    h1 {
+        width: 40;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        display: flex;
+        margin: 0 55px 0 57px;
+        height: auto;
+    }
+
+    p {
+        width: 304px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 15px 55px 0 34px;
+    }
+
+}
